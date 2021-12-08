@@ -22,5 +22,11 @@
         "name":"Beskidy",
         "title":"Piękne Beskidy",
         "img":"<img src='beskidy.jfif' width='350px' height='250px'>"
+    },
+    {
+        "id":5,
+        "name":"Beskidy",
+        "title":"Piękne Beskidy",
+        "img":"<img src='rysy.jpeg' width='350px' height='250px'>"
     }
 ]
