@@ -9,24 +9,24 @@
         "id":2,
         "name":"Bieszczady:",
         "title":"Piękne bieszczady",
-        "img":"<img src='bieszczady.jfif' width='350px' height='250px'>"
+        "img":"<img src='bieszczady.jfif' width='351px' height='250px'>"
     },
     {
         "id":3,
         "name":"Karpaty:",
         "title":"Piękne Karpaty",
-        "img":"<img src='karpaty.jpg' width='350px' height='250px'>"
+        "img":"<img src='karpaty.jpg' width='351px' height='250px'>"
     },
     {
         "id":4,
         "name":"Beskidy:",
         "title":"Piękne Beskidy",
-        "img":"<img src='beskidy.jfif' width='350px' height='250px'>"
+        "img":"<img src='beskidy.jfif' width='351px' height='250px'>"
     },
     {
         "id":5,
         "name":"Rysy:",
         "title":"Piękne Rysy",
-        "img":"<img src='rysy.jpeg' width='350px' height='250px'>"
+        "img":"<img src='rysy.jpeg' width='351px' height='250px'>"
     }
 ]
