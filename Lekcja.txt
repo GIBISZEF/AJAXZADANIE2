@@ -1,0 +1,24 @@
+Pobieranie projektu z gitHuba na komp. local
+
+git clone nazwa_repozytorium
+,np. 
+git clone https://github.com/GIBISZEF/projekt1.git
+
+======================================================================================
+
+git status = prezentuje stan pliku w git
+to polecenie powie nam na jakim branch(gałąź) jesteśmy i czy mamy coś do cimmitowania
+
+======================================================================================
+
+Dodawanie do repo danych
+git add . - dodaje do repo wszystko co zostało zmodyfikowane
+git add nazwa_pliku - dodaje tylko ten jeden plik
+
+=======================================================================================
+
+Wykonanie commite -
+stawiamy massage do commite
+git commite -m "Treść commite"
+
+git log - pokazuje wszystkie commity

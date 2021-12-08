@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX - Ćwiczenia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Zadanie</h1>
+    <button id="przycisk">Ładuj</button>
+    <div id="dane"></div>
+    <script type="text/javascript">
+
+        document.getElementById("przycisk").addEventListener("click", laduj)
+
+        function laduj(){
+            var XHR = new XMLHttpRequest();
+            XHR.open('GET', 'dane.json', true);
+
+            XHR.onload = function(){
+                if(this.status == 200){
+                    var dane = JSON.parse(this.responseText);
+                    var output = "";
+                    for(let i in dane){
+                        output += `
+                            <ul>
+                                <li>ID: ${dane[i].id}</li>
+                                <li>Name: ${dane[i].name}</li>
+                                <li>Title: ${dane[i].title}</li>
+                                <li>${dane[i].img}</li>
+                            </ul>    
+                        `;
+                    }
+                    document.getElementById("dane").innerHTML = output;
+                }
+            }
+            XHR.send();
+        }
+
+    </script>
+</body>
+</html>
