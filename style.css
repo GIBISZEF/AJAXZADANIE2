@@ -10,5 +10,10 @@ h1{
 }
 button{
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 35px;
+    border-radius: 30%;
+    background-color: rgb(150, 91, 204);
+    border: solid rgb(150, 91, 204) 16px;
+    transition-duration: 0.4s;
+    box-shadow: 6px 9px #888888
 }
