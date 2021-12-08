@@ -13,20 +13,20 @@
     },
     {
         "id":3,
-        "name":"Karpaty",
+        "name":"Karpaty:",
         "title":"Piękne Karpaty",
         "img":"<img src='karpaty.jpg' width='350px' height='250px'>"
     },
     {
         "id":4,
-        "name":"Beskidy",
+        "name":"Beskidy:",
         "title":"Piękne Beskidy",
         "img":"<img src='beskidy.jfif' width='350px' height='250px'>"
     },
     {
         "id":5,
-        "name":"Beskidy",
-        "title":"Piękne Beskidy",
+        "name":"Rysy:",
+        "title":"Piękne Rysy",
         "img":"<img src='rysy.jpeg' width='350px' height='250px'>"
     }
 ]
